@@ -33,6 +33,7 @@ if(isset($_POST['li'])&&$_SERVER['REQUEST_METHOD']=="POST")
 						<button style='display: none' this-id="<?php echo $data['hobby_id']?>" id="button-cap-edit<?php echo $data['hobby_id']?>" class="button-cap-edit">Edit</button>
 					</div>
 				</div>
+			</div>
 				<div class="hobby-more-div" style="text-align:center; margin:20px 0px; color:#5884e6">
 					<span class="hobby-more" last-id="<?php echo $data['hobby_id']?>">Show More</span>
 				</div>
